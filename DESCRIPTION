@@ -1,16 +1,17 @@
-Package: restoremypkg
+Package: restorepkg
 Title: Backup and Restore R Packages
 Version: 0.0.1
 Authors@R: person("Hao", "zhu", email = "haozhu233@gmail.com",
     role = c("aut", "cre"))
-Description: Re-install all the R packages you had on a new version of R or a new computer
+Description: Re-install all the R packages you had on a new version of R or a
+    new computer.
 URL: https://github.com/haozhu233/restoremypkg
 BugReports: https://github.com/haozhu233/restoremypkg/issues
 Depends:
     R (>= 3.1.0)
 Imports:
     httr,
-    xml2,
     stringr,
     utils
 License: MIT + file LICENSE
+RoxygenNote: 5.0.1
