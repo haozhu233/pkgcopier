@@ -1,12 +1,11 @@
-Package: restorepkg
-Title: Backup and Restore R Packages
+Package: pkgcopier
+Title: Copy local R packages to another environment
 Version: 0.0.1
 Authors@R: person("Hao", "zhu", email = "haozhu233@gmail.com",
     role = c("aut", "cre"))
-Description: Re-install all the R packages you had on a new version of R or a
-    new computer.
-URL: https://github.com/haozhu233/restoremypkg
-BugReports: https://github.com/haozhu233/restoremypkg/issues
+Description: "Copy" local R package information to a temporary cloud space and "paste" your favorite R packages to a new environment.
+URL: https://github.com/haozhu233/pkgcopier
+BugReports: https://github.com/haozhu233/pkgcopier/issues
 Depends:
     R (>= 3.1.0)
 Imports:

@@ -1,12 +1,16 @@
-#' Package Backup
+#' Copy package info to cloud
 #'
-#' \code{pkg_backup()} saves the names of installed packages to a temporary
-#' online drive and provides a download code if the process is successful.
-#' The download code can be used in \code{pkg_restore()} to re-install packages
-#' on a different version of R or a different computer.
+#' \code{pkg_copy()} saves the names of local R packages to a temporary
+#' cloud drive and provides a download code if the process is successful.
+#' The download code can be used in \code{pkg_paste()} to re-install packages
+#' in a different environment. \cr\cr This function should be run in the
+#' old/source environment.
 #'
 #' @param lib.loc Library Location. It's an argument passed to
 #' \code{installed.packages()}.
+#'
+#' @examples
+#' pkg_copy()
 #'
 #' @importFrom utils installed.packages
 #' @importFrom httr POST upload_file content
@@ -14,7 +18,7 @@
 #'
 #' @export
 
-pkg_backup <- function(lib.loc = NULL){
+pkg_copy <- function(lib.loc = NULL){
   # Check installed packages
   installed_pkg <- installed.packages(lib.loc = lib.loc)
   installed_pkg <- dimnames(installed_pkg)[[1]]
@@ -32,9 +36,9 @@ pkg_backup <- function(lib.loc = NULL){
   )
 
   if(curl_response$status_code == 200){
-    message("Success! You just backed up your R packages!")
+    message("Success! You just copied your R package info to cloud!")
   }else{stop("Failed! You can report problems at ",
-             "https://github.com/haozhu233/restoremypkg/issues")}
+             "https://github.com/haozhu233/pkgcopier/issues")}
 
   # Retrive the download code from the HTTP response
   download_code <- str_match(
