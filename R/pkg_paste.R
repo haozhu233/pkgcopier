@@ -13,10 +13,6 @@
 #' \code{installed.packages()}.
 #' @param ... Arguments passed to \code{install.packages()}
 #'
-#' @examples
-#' # Replace the input with the download code you got from pkg_copy()
-#' pkg_paste("88u0AiQMZCN2")
-#'
 #' @importFrom utils install.packages
 #' @importFrom httr write_disk GET
 #'

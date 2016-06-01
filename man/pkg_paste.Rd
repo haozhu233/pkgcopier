@@ -26,9 +26,4 @@ cannot be installed. \code{pkg_paste_names()} does not attempt to install
 packages, in case people want to revise the list before installation. \cr\cr
 This function should be run in the new/target environment.
 }
-\examples{
-# Replace the input with the download code you got from pkg_copy()
-pkg_paste("88u0AiQMZCN2")
-
-}
 
