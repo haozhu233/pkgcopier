@@ -11,7 +11,6 @@ Set up R packages in a new environment is annoying.
 Even though we have [`packrat`](https://rstudio.github.io/packrat/) to help us manage package dependency, sometimes the process is still too complicated, especially for new R users. Could we just have a simple solution that can solve 90% of the problems in two simple commands?
 
 ## How to
-The main goal is to keep things simple. It is a simple task. Therefore, there is no reason to get it complicated. 
 
 ### In you old environment
 ```r
@@ -19,9 +18,9 @@ library(pkgcopier)
 pkg_copy()
 ```
 Output:  
-<span style="color: #C30D19;">Success! You just copied your R package info to cloud!  
+Success! You just copied your R package info to cloud!  
 Your download code is: mh223J3LHD0a  
-This code will expire in 24 hours. Re-run this function if time runs out.</span>
+This code will expire in 24 hours. Re-run this function if time runs out.
 
 ### Then in your new environment
 ```r
