@@ -17,7 +17,7 @@ This package will allow you to copy the names of your favorite packages to a pub
 
 ## How to
 
-### In you old environment
+### On your computer
 ```r
 library(pkgcopier)
 pkg_copy()
@@ -27,7 +27,7 @@ Success! You just copied your R package info to cloud!
 Your download code is: **mh223J3LHD0a**  
 This code will expire in 24 hours. Re-run this function if time runs out.
 
-### Then in your new environment
+### On your friends/students' computer
 ```r
 install.packages("pkgcopier")
 library(pkgcopier)
