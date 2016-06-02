@@ -1,6 +1,6 @@
 Package: pkgcopier
 Title: Copy Local R Packages to Another Environment
-Version: 0.0.1
+Version: 0.0.2
 Authors@R: person("Hao", "Zhu", email = "haozhu233@gmail.com",
     role = c("aut", "cre"))
 Description: "Copy" local R package information to a temporary cloud space and "paste" your favorite R packages to a new environment.
