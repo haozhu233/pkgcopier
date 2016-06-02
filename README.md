@@ -29,8 +29,7 @@ This code will expire in 24 hours. Re-run this function if time runs out.
 
 ### Then in your new environment
 ```r
-# install.packages("devtools")
-# devtools::install_github("haozhu233/pkgcopier")
+install.packages("pkgcopier")
 library(pkgcopier)
 pkg_paste("mh223J3LHD0a")
 ```
