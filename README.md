@@ -3,9 +3,9 @@ version](http://www.r-pkg.org/badges/version/pkgcopier)](https://cran.r-project.
 
 # Package Copier
 ## Stories
-1. Amy just got a brand new computer. She is excited and wants to do some R programming right away, until she realize that she doesn't have her favorite packages installed...
-2. Jeff wants to jump start Peter, a student intern who recently joined Jeff's company, on R and teach him some R tricks. As soon as he opens Peter's RStudio, he realizes that he needs to spend some time on installing packages before he can get started. 
-3. Steve is TAing a university class using R. He received a lot of questions from students asking for recommendations of good R packages. Steve hates to tell them one by one. 
+1. Steve is teaching a university class using R. He wants his students (~30 people) to quickly install a list of R packages on their computers. 
+2. Amy just got a brand new computer. She is excited and wants to do some R programming right away, until she realize that she doesn't have her favorite packages installed...
+3. Jeff wants to jump start Peter, a student intern who recently joined Jeff's company, on R and teach him some R tricks. As soon as he opens Peter's RStudio, he realizes that he needs to spend some time on installing packages before he can get started. 
 4. Mary just did a major upgrade for R. She sadly realized that she needs to reinstall her R packages. 
 
 ## Introduction
