@@ -1,3 +1,6 @@
+[![CRAN
+version](http://www.r-pkg.org/badges/version/pkgcopier)](https://cran.r-project.org/package=pkgcopier)
+
 # Package Copier
 ## Stories
 1. Amy just got a brand new computer. She is excited and wants to do some R programming right away, until she realize that she doesn't have her favorite packages installed...
