@@ -35,6 +35,9 @@ pkg_paste("mh223J3LHD0a")
 ```
 That's it!
 
+## Where was the meta data stored?
+The names of your packages are uploaded to [https://uguu.se/](https://uguu.se/), a temporary file hosting website. It is developed by [nokonoko](https://github.com/nokonoko) and the github project page is [here](https://github.com/nokonoko/Uguu).
+
 ## Development
 ### Contribute
 Welcome contributions from all levels. Also, feel free to use the source code in other packages. 
