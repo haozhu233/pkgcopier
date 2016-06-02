@@ -27,7 +27,7 @@ Success! You just copied your R package info to cloud!
 Your download code is: **mh223J3LHD0a**  
 This code will expire in 24 hours. Re-run this function if time runs out.
 
-### On your friends/students' computer
+### On your friend's/student's computer
 ```r
 install.packages("pkgcopier")
 library(pkgcopier)
