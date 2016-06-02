@@ -1,7 +1,7 @@
+# Package Copier
 [![CRAN
 version](http://www.r-pkg.org/badges/version/pkgcopier)](https://cran.r-project.org/package=pkgcopier)
 
-# Package Copier
 ## Stories
 1. Steve is teaching a university class using R. He wants his students (~30 people) to quickly install a list of R packages on their computers. 
 2. Amy just got a brand new computer. She is excited and wants to do some R programming right away, until she realize that she doesn't have her favorite packages installed...
