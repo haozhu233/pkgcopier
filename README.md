@@ -11,7 +11,7 @@ version](http://www.r-pkg.org/badges/version/pkgcopier)](https://cran.r-project.
 ## Introduction
 Set up R packages in a new environment is annoying.  
 
-Of course, we have [`packrat`](https://rstudio.github.io/packrat/) and [`docker`](https://www.docker.com/). Both of them are excellent tools. However, do you also feel in the same way that these tools are too fancy for this simple task? All we need here is just to "copy" all the R packages I have on computer A and "paste" them to computer B. Could we just have a simple solution for this simple task?
+Of course, we have [`packrat`](https://rstudio.github.io/packrat/) and [`docker`](https://www.docker.com/). Both of them are excellent tools. However, do you also feel in the same way that these tools are too fancy for this simple task? All we need here is just to "copy" all the R packages we have on computer A and "paste" them to computer B. Could we just have a simple solution for this simple task?
 
 This package will allow you to copy the names of your favorite packages to a public cloud space using `pkg_copy()`. Your package info will stay there for 24 hrs and you will get a download code. On a new computer, you can use that code inside `pkg_paste()` to download all the packages that are not on the new computer. It is just that simple! 
 
