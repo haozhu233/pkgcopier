@@ -1,6 +1,7 @@
 # Package Copier
 [![CRAN
 version](http://www.r-pkg.org/badges/version/pkgcopier)](https://cran.r-project.org/package=pkgcopier)
+[![CRAN\_downloads](http://cranlogs.r-pkg.org/badges/pkgcopier)](http://cran.rstudio.com/web/packages/pkgcopier/index.html)
 
 ## Stories
 1. Steve is teaching a university class using R. He wants his students (~30 people) to quickly install a list of R packages on their computers. 
